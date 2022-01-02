@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -29,6 +30,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -45,6 +49,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    //courrutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1")
+
+    //Firebase
+    //firebaseAuth
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
 
 
     testImplementation 'junit:junit:4.+'
