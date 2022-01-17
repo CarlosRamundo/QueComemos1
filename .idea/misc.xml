@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/carlos/AndroidStudioProjects/QueComemos/app/src/main/res/layout/activity_main.xml" value="0.16944444444444445" />
-        <entry key="..\:/Users/carlos/AndroidStudioProjects/QueComemos/app/src/main/res/layout/fragment_home.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/carlos/AndroidStudioProjects/QueComemos/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/QueComemos/app/src/main/res/layout/fragment_login.xml" value="0.1" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/QueComemos/app/src/main/res/layout/fragment_registrer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/carlos/AndroidStudioProjects/QueComemos/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

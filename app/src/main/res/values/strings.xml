@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Que Comemos</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_rapidas">Rápidas</string>
+    <string name="btn_veganas">Veganas</string>
+    <string name="btn_carnes">Carnes</string>
+    <string name="btn_pescados">Pescados</string>
+    <string name="btn_saludables">Saludables</string>
+    <string name="btn_gourmet">Gourmet</string>
+    <string name="btn_postres">Postres</string>
+    <string name="btn_pastas">Pastas</string>
+    <string name="btn_economicas">Económicas</string>
+    <string name="btn_quecomemos">¿Qué Comemos?</string>
 </resources>
