@@ -56,4 +56,18 @@
             app:popEnterAnim="@anim/slide_in_right"
             app:popExitAnim="@anim/slide_out_left" />
     </fragment>
+    <fragment
+        android:id="@+id/copyrightFragment"
+        android:name="com.example.quecomemos.ui.copyright.CopyrightFragment"
+        android:label="fragment_copyright"
+        tools:layout="@layout/fragment_copyright" />
+    <fragment
+        android:id="@+id/favoritesRecipeFragment"
+        android:name="com.example.quecomemos.ui.favorites.FavoritesRecipeFragment"
+        android:label="fragment_favorites_recipe"
+        tools:layout="@layout/fragment_favorites_recipe" >
+        <action
+            android:id="@+id/action_favoritesRecipeFragment_to_recipeFragment"
+            app:destination="@id/recipeFragment" />
+    </fragment>
 </navigation>

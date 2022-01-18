@@ -4,7 +4,7 @@
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Home"/>
 
-    <item android:id="@+id/favoritesFragment"
+    <item android:id="@+id/favoritesRecipeFragment"
         android:icon="@drawable/ic_baseline_restaurant_menu_24"
         android:title="Mis Recetas"/>
 
