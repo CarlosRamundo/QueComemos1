@@ -31,7 +31,6 @@ class FavoritesRecipeAdapter(private val recipeList: List<Recipe>) :RecyclerView
         override fun bind(item: Recipe) {
             binding.nameRecipe.text = item.recipe_name
             Glide.with(context).load(item.recipe_image).centerCrop().into(binding.photoRecipe)
-            binding.ingredients.text = item.recipe_ingredients
             binding.recipeDescription.text = item.recipe_description
         }
     }
