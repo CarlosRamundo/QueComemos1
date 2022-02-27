@@ -1,6 +1,7 @@
 package com.example.quecomemos.ui.home
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -17,6 +18,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         binding = FragmentHomeBinding.bind(view)
 
         binding.btnSaludables.setOnClickListener {
+            var id = (0..10).random()
+            Log.d("id", "id numero: $id")
             findNavController().navigate(R.id.action_homeFragment_to_recipeFragment)
         }
         binding.btnVeganas.setOnClickListener {
